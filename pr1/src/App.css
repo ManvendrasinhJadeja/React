@@ -1,0 +1,13 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: space;
+}
+
+@font-face {
+    font-family: space;
+    src: url(./assets/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf);
+}
