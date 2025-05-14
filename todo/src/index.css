@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #0d1117;
+  color: #e6edf3;
+}
+.todo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background: #0d1117;
+}
+.todo-container {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 16px;
+  padding: 30px;
+  width: 100%;
+  max-width: 450px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+}
+.todo-heading {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #58a6ff;
+}
+.todo-input-area {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.todo-input-area input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #30363d;
+  background-color: #0d1117;
+  color: #e6edf3;
+  outline: none;
+  font-size: 16px;
+}
+.todo-input-area input::placeholder {
+  color: #8b949e;
+}
+.todo-input-area button {
+  padding: 12px 16px;
+  background-color: #238636;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.hello {
+  padding: 12px 16px;
+  background-color: #238636;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.todo-input-area button:hover {
+  background-color: #2ea043;
+}
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.todo-item {
+  background: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: 10px;
+  padding: 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+.todo-item:hover {
+  transform: translateY(-2px);
+  background-color: #161b22;
+}
+.task-text {
+  font-size: 16px;
+  color: #c9d1d9;
+}
+.delete-btn {
+  background: none;
+  border: none;
+  color: #f85149;
+  font-size: 18px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+.delete-btn:hover {
+  color: #ff7b72;
+}
+.todo-item .btn-group button {
+  padding: 6px 10px;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.edit-input {
+  flex: 1;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background-color: #0d1117;
+  color: #e6edf3;
+  border: 1px solid #30363d;
+  outline: none;
+  font-size: 16px;
+}
+
+.save-btn {
+  padding: 10px 14px;
+  background-color: #238636;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.save-btn:hover {
+  background-color: #2ea043;
+}
+
+.edit-btn {
+  padding: 10px 14px;
+  background-color: #fbbf24;
+  border: none;
+  border-radius: 10px;
+  color: #000;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.edit-btn:hover {
+  background-color: #facc15;
+}
+
+.btn-group {
+  display: flex;
+  gap: 8px;
+}
