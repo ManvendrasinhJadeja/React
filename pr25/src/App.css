@@ -1,0 +1,12 @@
+.dark{
+  background-color: #242424;
+  color: white;
+}
+.white{
+  background-color: #fff;
+  color: black;
+}
+.box{
+  width: 100%;
+  height: 100vh;
+}
